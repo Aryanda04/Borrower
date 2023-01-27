@@ -1,0 +1,28 @@
+.footer{
+    text-align: center;
+}
+
+.footer h3{
+    margin: .5rem 0 .2rem 0;
+    padding: 0;
+}
+
+/* .creatorList p{
+    margin: .2rem;
+} */
+
+.creatorList{
+    margin: 0 25rem;
+}
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.creator p{
+    margin: .15rem 0;
+    padding: 0;
+}

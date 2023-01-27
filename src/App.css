@@ -1,3 +1,168 @@
+.split {
+  height: 100%;
+  position: fixed;
+  /* z-index: 1; */
+  /* top: 0; */
+  overflow-x: hidden;
+}
+
+.left {
+  padding-top: 20px;
+  left: 0;
+  background: #A5C9CA;
+  width: 80%;
+}
+.right {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+background-color: #395B64;
+  right: 0;
+  width: 20%;
+}
+.bottom{
+  width: inherit;
+  position: fixed;
+  /* margin: 0 auto; */
+  bottom: 10px;
+}
+.submitButton{
+  border-radius: 5px;
+  width: 90%;
+  background-color: #A5C9CA;
+  border: none;
+  color: #282c34;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.submitButton:hover{
+  background-color: #282c34;
+  color: #A5C9CA;
+}
+
+.itemCard{
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 200px;
+  height: 100%;
+  /* background-color: red; */
+  /* border-radius: 10px; */
+  /* padding: 20px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: 2px solid #000; */
+  overflow: hidden;
+}
+.itemCardImg{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
+.itemCardName{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+}
+.flexContainerColumn{
+  display: flex;
+  flex-direction: column;
+}
+.spaceBetween{
+  display: flex;
+  justify-content: space-between;
+}
+.flexContainerRow{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.headTitle{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px 10px;
+}
+.itemStore{
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 1rem;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border-bottom: solid 4px #E7E7E7;
+}
+.itemStoreImg{
+  width: 100px;
+  min-height: 100%;
+}
+.middleContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.itemStoreName{
+  padding: 0;
+}
+.buttonContainer{
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: 0.5rem; */
+  margin: 0 auto;
+}
+.buttonContainer p {
+  border: 0.7px solid #A0A0A0;
+  margin: auto;
+  line-height: 17px;
+  padding: 0;
+  margin: 0 0.5rem;
+  align-items: left;
+  text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  width: 40px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: none;
+}
+
+.buttonContainer div {
+  margin: auto;
+  line-height: 17px;
+  padding: 0;
+  border: 1px solid black;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: none;
+  cursor: pointer;
+}
+.gridContainer{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
 .App {
   text-align: center;
 }
